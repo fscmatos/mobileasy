@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobileasy</title>
+    <link rel="icon" href="/assets/img/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/mdb.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarLeftAlignExample"
+            aria-controls="navbarLeftAlignExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active nav-font" aria-current="page" href="#"><strong>mobileasy</strong></a>
+              </li>
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-fonts"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  marcas
+                </a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown-menu nav-fonts" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Apple</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">LG</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Motorola</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Samsung</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Xiaomi</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-fonts">
+                <a class="nav-link" href="#">acessórios</a>
+              </li>
+            </li>
+            <li class="nav-item nav-fonts">
+              <a class="nav-link" href="#">suporte</a>
+            </li>
+            <li class="nav-item nav-fonts">
+                <a class="nav-link" href="#">contato</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+            <!-- Right elements -->
+    <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="#">
+            <img src="https://img.icons8.com/ios/30/000000/shopping-cart.png" height="20px" alt="carrinho de compras">
+        </a>
+  
+        <!-- Notifications -->
+        <a
+          class="text-reset me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+        <img src="https://img.icons8.com/material-sharp/24/000000/bell.png" alt="sino de notificação"/>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">oba! recebemos o seu pedido! <br />agora é só aguardar a confirmação do pagamento</a>
+          </li>
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">você sabia que hoje tem promoção?<br /> capas de celulares de todas as marcas com até 50% off!</a>
+          </li>
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">eles chegaram!! <br />o Redmi Buds 3 Pro já está no nosso catálogo :)</a>
+          </li>
+        </ul>
+  
+        <!-- Avatar -->
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="https://img.icons8.com/ios/24/000000/user.png"
+            class="rounded-circle"
+            height="25"
+            alt="foto do usuário"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">meus pedidos</a>
+          </li>
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">minha conta</a>
+          </li>
+          <li>
+            <a class="dropdown-item nav-fonts" href="#">sair</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Right elements -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Carousel wrapper -->
+<div
+id="carouselBasicExample"
+class="carousel slide carousel-fade"
+data-mdb-ride="carousel"
+>
+<!-- Indicators -->
+<div class="carousel-indicators">
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="0"
+    class="active"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="1"
+    aria-label="Slide 2"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="2"
+    aria-label="Slide 3"
+  ></button>
+</div>
+
+<!-- Inner -->
+<div class="carousel-inner">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <img
+      src="/assets/img/banner1.svg"
+      class="d-block w-100"
+      alt="banner do carrossel"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5></h5>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="/assets/img/3.svg"
+      class="d-block w-100"
+      alt="..."
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5></h5>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="/assets/img/2.svg"
+      class="d-block w-100"
+      alt="..."
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5></h5>
+      <p></p>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+
+<!-- Controls -->
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-mdb-target="#carouselBasicExample"
+  data-mdb-slide="prev"
+>
+  <span><img src="/assets/img/arrow-prev.png" height="50px" alt="anterior"></span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-mdb-target="#carouselBasicExample"
+  data-mdb-slide="next"
+
+>
+<span><img src="/assets/img/arrow-next.png" height="50px" alt="próximo"></span>
+</button>
+</div>
+<!-- Carousel wrapper -->
+<div class="card-group">
+    <div class="card">
+      <img
+        src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/100/000000/external-credit-card-finance-kiranshastry-lineal-kiranshastry-1.png"
+        height="100px"
+        width="100px"
+        class="card-image"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title nav-fonts">Dá pra parcelar!</h5>
+        <p class="card-text nav-fonts">
+          Parcele suas compras em até 12x. Assim fica muito <em>easy</em> comprar!
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/100/000000/external-delivery-truck-automobile-kiranshastry-lineal-kiranshastry.png"
+        height="100px"
+        width="100px"
+        class="card-image"
+        alt="caminhão de entrega"
+      />
+      <div class="card-body">
+        <h5 class="card-title nav-fonts">Frete grátis!</h5>
+        <p class="card-text nav-fonts">
+          Oferecemos frete grátis para TODO o Brasil!
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="https://img.icons8.com/external-wanicon-lineal-wanicon/100/000000/external-customer-service-hotel-wanicon-lineal-wanicon.png"
+        height="100px"
+        width="100px"
+        class="card-image"
+        alt="telefone 24 horas"
+      />
+      <div class="card-body">
+        <h5 class="card-title nav-fonts">Deu algum problema?</h5>
+        <p class="card-text nav-fonts">
+          É só ligar para a nossa equipe de suporte. Estamos prontos para te atender 24h!
+        </p>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <p class="newsletter nav-fonts">Inscreva-se na nossa Newsletter e receba todas as promoções em primeira mão:</p>
+  <div class="row">
+  <div class="col">
+    <!-- Name input -->
+    <div class="form-outline form-margin form-input">
+      <input type="text" id="form8Example1" class="form-control" />
+      <label class="form-label nav-fonts form-input" for="form8Example1">Nome</label>
+    </div>
+  </div>
+  <div class="col">
+    <!-- Email input -->
+    <div class="form-outline  form-input">
+      <input type="email" id="form8Example2" class="form-control" />
+      <label class="form-label nav-fonts" for="form8Example2">Email</label>
+    </div>
+  </div>
+
+</div>
+<input type="submit" class="botao-submit nav-fonts">
+
+    <br />
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block nav-fonts">
+        <span>siga-nos nas redes sociais:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+            <img class="iconslogo" src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png" height="20px" alt="logo do facebook"/>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <img class="iconslogo" src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" height="20px" alt="logo do twitter"/>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <img class="iconslogo" src="https://img.icons8.com/ios-glyphs/30/000000/google-logo.png" height="20px" alt="logo do google"/>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <img class="iconslogo" src="https://img.icons8.com/material-rounded/30/000000/instagram-new.png" height="20px" alt="logo do instagram"/>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <img class="iconslogo" src="https://img.icons8.com/ios-glyphs/24/000000/tiktok.png" height="20px" alt="logo do tiktok"/>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 nav-fonts">
+              <img src="/assets/img/icone.svg" width="50px" alt="logo da mobileasy"/> mobileasy
+            </h6>
+
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 nav-fonts">
+              Produtos
+            </h6>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Smartphones</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Capas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Fones de ouvido</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Carregadores</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 nav-fonts">
+              Links úteis
+            </h6>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Catálogo</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Configurações</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Pedidos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-fonts">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 nav-fonts">
+              Contato
+            </h6>
+            <p class="nav-fonts">Salvador, BA, Brasil</p>
+            <p class="nav-fonts"> 
+              contato@mobileasy.com
+            </p>
+            <p class="nav-fonts">+55 71 3333-3333</p>
+            <p class="nav-fonts">+55 71 9999-9999</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 nav-fonts" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold nav-fonts" href="#">mobileasy.com.br</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <script src="assets/js/mdb.min.js">
+    </script>
+</body>
+</html>

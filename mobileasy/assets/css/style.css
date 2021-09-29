@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Comfortaa Light;
+    src: url(/assets/img/Comfortaa-Light.ttf);
+}
+@font-face {
+    font-family: Comfortaa Regular;
+    src: url(/assets/img/Comfortaa-Regular.ttf);
+}
+.nav-font {
+    font-family: Comfortaa Light;
+}
+
+.nav-fonts{
+    font-family: Comfortaa Regular;
+}
+
+.card-image {
+    margin-left: 150px;
+}
+
+.newsletter {
+    margin-left: 50px;
+}
+
+.form-margin {
+    margin-left: 25px;
+}
+
+.form-input {
+    width: 500px;
+}
+
+.botao-submit {
+    background-color: #224870;
+    border: solid #224870 2px;
+    color: white;
+    margin-top: 20px;
+    width: 100px;
+    margin-right:50px;
+    margin-left: 550px;
+}
+
+.botao-submit:hover {
+    background-color: white;
+    color: #224870;
+}
+
+::selection {
+    background-color: #224870;
+    color: white;
+}
+
+.iconslogo {
+    margin-right: 120px;
+    margin-left: 10px;
+}
+
+@media(max-width: 800px){
+    .navbar { width:100%; }
+    
+    .navbar-expand-lg { width: 100%;}
+
+    .navbar-light { width: 100%;}
+
+    .bg-light {width: 100%;} 
+    @font-face {
+        font-family: Comfortaa Light;
+        src: url(/C:/Users/adrin/AppData/Local/Microsoft/Windows/Fonts/Comfortaa-Light.ttf);
+    }
+    @font-face {
+        font-family: Comfortaa Regular;
+        src: url(/C:/Users/adrin/AppData/Local/Microsoft/Windows/Fonts/Comfortaa-Regular.ttf);
+    }
+    .nav-font {
+        font-family: Comfortaa Light;
+    }
+    
+    .nav-fonts{
+        font-family: Comfortaa Regular;
+    }
+    
+    .card-image {
+        margin-left: 150px;
+    }
+    
+    .newsletter {
+        margin-left: 50px;
+    }
+    
+    .form-margin {
+        margin-left: 25px;
+    }
+    
+    .form-input {
+        width: 500px;
+    }
+    
+    .botao-submit {
+        background-color: #224870;
+        border: solid #224870 2px;
+        color: white;
+        margin-top: 20px;
+        width: 100px;
+        margin-right:50px;
+        margin-left: 550px;
+    }
+    
+    .botao-submit:hover {
+        background-color: white;
+        color: #224870;
+    }
+    }
